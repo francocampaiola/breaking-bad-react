@@ -37,7 +37,8 @@ const ContenedorFrase = styled.div`
     }
 `;
 
-const Frase = ({frase}) => {
+const Frase = ({frase}) => {    
+
   return (
     <ContenedorFrase>
         <h1>{frase.quote}</h1>
